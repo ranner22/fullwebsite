@@ -22,9 +22,7 @@
         background-color: rgb(212, 236, 244) !important;
       }
 
-      .nav{
-        background-color: rgb(225, 237, 241);
-      }
+  
 
       .emotional {
         /* font-weight: bold;
@@ -54,12 +52,12 @@
         height: 60px; /* Set the fixed height of the footer here */
        /* line-height: 60px;  Vertically center the text there */
     
-         background-color:rgb(225, 237, 241) !important;
+         background-color:rgb(255, 255, 255)!important;
       }
 
       .negStress {
         font-weight: bold;
-        color: #ff6666;
+        /* color: #ff6666; */
         /* font-size: 1.5rem; */
       }
 
@@ -78,8 +76,16 @@
     }
 
     h4{
-        color: #ff6666;
+        color: red;
     }
+
+    .nav-link{
+        background-color: rgb(255, 255, 255) !important;
+    }
+    .navbar{
+        background-color: rgb(255, 255, 255) !important;
+      }
+
     </style>
   </head>
 
@@ -93,7 +99,7 @@
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#"
+        <a class="navbar-brand" href="./index.html"
           ><svg
             xmlns="http://www.w3.org/2000/svg"
             width="30"
@@ -143,19 +149,13 @@
 
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Postcode"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">Check</button>
-            </form>
+            
       </div>
     </nav>
 
+    
     <div class="px-4 pt-8 my-5 text-center container">
+        <!-- <div class="p-5 mb-4 bg-body-tertiary rounded-3"> -->
       <h1 class="display-4 fw-bold">Experiments reimagined</h1>
       <div class="col-lg-10 mx-auto">
         <div>
@@ -168,9 +168,7 @@
         </div>
 
         <div class="d-grid gap-2 pt-3 d-sm-flex justify-content-sm-center mb-5">
-          <!-- <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">
-            Join waitlist
-          </button> -->
+
           <a class="btn btn-primary btn-lg px-4 me-sm-3" href="https://docs.google.com/forms/d/e/1FAIpQLSeEm38DVS5yqWfCh5dMPH9C61tmldwgIrUjY2falImS2fHkMw/viewform?usp=sf_link" role="button">Join Waitlist</a>
           <a class="btn btn-outline-secondary btn-lg px-4" href="mailto:marketing@ensynble.com" role="button">Email us</a>
 
@@ -188,16 +186,18 @@
           />
         </div>
       </div>
-    </div>
+    <!-- </div> -->
+</div>
 
 
 
       <div class="container px-4 pt-5" id="featured-3">
+        <div class="p-5 mb-4 bg-body-tertiary rounded-3"> 
         <h2 class="display-6">If you find experiments difficult, that is because they are...</h2>
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
           <div class="feature col">
             <div class = "pb-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill=#ff6666 class="bi bi-zoom-in" viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="red" class="bi bi-zoom-in" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0"/>
                     <path d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z"/>
                     <path fill-rule="evenodd" d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5"/>
@@ -215,7 +215,7 @@
           </div>
           <div class="feature col">
             <div class = "pb-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill= "#ff6666" class="bi bi-tools" viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="red" class="bi bi-tools" viewBox="0 0 16 16">
                     <path d="M1 0 0 1l2.2 3.081a1 1 0 0 0 .815.419h.07a1 1 0 0 1 .708.293l2.675 2.675-2.617 2.654A3.003 3.003 0 0 0 0 13a3 3 0 1 0 5.878-.851l2.654-2.617.968.968-.305.914a1 1 0 0 0 .242 1.023l3.27 3.27a.997.997 0 0 0 1.414 0l1.586-1.586a.997.997 0 0 0 0-1.414l-3.27-3.27a1 1 0 0 0-1.023-.242L10.5 9.5l-.96-.96 2.68-2.643A3.005 3.005 0 0 0 16 3q0-.405-.102-.777l-2.14 2.141L12 4l-.364-1.757L13.777.102a3 3 0 0 0-3.675 3.68L7.462 6.46 4.793 3.793a1 1 0 0 1-.293-.707v-.071a1 1 0 0 0-.419-.814zm9.646 10.646a.5.5 0 0 1 .708 0l2.914 2.915a.5.5 0 0 1-.707.707l-2.915-2.914a.5.5 0 0 1 0-.708M3 11l.471.242.529.026.287.445.445.287.026.529L5 13l-.242.471-.026.529-.445.287-.287.445-.529.026L3 15l-.471-.242L2 14.732l-.287-.445L1.268 14l-.026-.529L1 13l.242-.471.026-.529.445-.287.287-.445.529-.026z"/>
                   </svg>
                 <path
@@ -234,7 +234,7 @@
           </div>
           <div class="feature col">
             <div  class = "pb-2">
-                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill=#ff6666 class="bi bi-emoji-dizzy" viewBox="0 0 16 16">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="red" class="bi bi-emoji-dizzy" viewBox="0 0 16 16">
                     <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16"/>
                     <path d="M9.146 5.146a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 0 1 .708.708l-.647.646.647.646a.5.5 0 0 1-.708.708l-.646-.647-.646.647a.5.5 0 1 1-.708-.708l.647-.646-.647-.646a.5.5 0 0 1 0-.708m-5 0a.5.5 0 0 1 .708 0l.646.647.646-.647a.5.5 0 1 1 .708.708l-.647.646.647.646a.5.5 0 1 1-.708.708L5.5 7.207l-.646.647a.5.5 0 1 1-.708-.708l.647-.646-.647-.646a.5.5 0 0 1 0-.708M10 11a2 2 0 1 1-4 0 2 2 0 0 1 4 0"/>
                   </svg>
@@ -258,20 +258,20 @@
 
         <div class="text-end col-12 small">
             <p>Source: 2023 Ensynble biological science PhD student survey  </br>
-                <a href="...">2023 survey results</a></br>
-            <a href="...">Participate in our 2024 survey</a></p>
+                <a href="./2023SurveyResults">2023 survey results</a></br>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfP6bCb7NPINy9z-XdnWsFqyxGs8Ckb4hAvK7-wExD9RNX4Og/viewform?usp=sf_link">Participate in our 2024 survey</a></p>
           </div>
         <div class="text-end col-12 ">
            
           </div>
       </div>
+    </div>
 
 
 
-      <!-- <div class="column col-8"> -->
         <div class="container pt-5 mt-5" id="featured-3">
         
-            <h2 class="display-5 text-center">WetGenie makes experiments easy.</h2>
+            <h2 class="display-4 text-center bold"><strong>WetGenie makes experiments easy.</strong></h2>
             
         <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
             <div>
@@ -320,7 +320,7 @@
                 <div class="center">
                   <h2>Easy experimental execution</h2>
                   <p>
-                    Conduct your most complex experiments with live step-wise guidance. Summon a variety of easily accessible built-in tools while multitasking. 
+                    Conduct your most complex experiments with live step-wise guidance and simple interface. Summon a variety of easily accessible built-in tools while multitasking. 
                   </p>
                 </div>
       
@@ -364,27 +364,15 @@
                 <p class="pt-2 sm">A conceptual image generated by DALL.E. It intends to convey that WetGenie operates on your phone during experiments as the combination of your lab notebook, protocol printout, camera, calculator, timer, and more. </p>
             </div>
 
-            <!-- <div class="overflow-hidden" style="max-height: 100vh">
-                <div class="container px-5">
-                  <img
-                    src="./demo.png"
-                    class="img-fluid border rounded-3 shadow-lg mb-4"
-                    alt="Example image"
-                    width="700"
-                    height="500"
-                    loading="lazy"
-                  />
-                </div>
-                <p class="pt-2">Yes, this is a conceptual image generated by DALL.E. It intends to convey that WetGenie operates on your phone during experiments as the combination of your lab notebook, protocol printout, camera, calculator, timer, and more. </p>
-              </div> -->
+
 
              
         </div>
     </div>
 
 
-    <div class="px-4 my-5 text-center"> 
-        <p class=" ">WetGenie's beta release is coming late 2024. We invite you to join our waitlist to receive early access.</p>
+    <div class="px-5 my-5 text-center"> 
+        <p class="fs-3">WetGenie's beta release is coming late 2024. We invite you to join our waitlist to receive early access.</p>
         <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5 py-5">
             <a class="btn btn-primary btn-lg px-4 me-sm-3" href="https://docs.google.com/forms/d/e/1FAIpQLSeEm38DVS5yqWfCh5dMPH9C61tmldwgIrUjY2falImS2fHkMw/viewform?usp=sf_link" role="button">Join Waitlist</a>
 
@@ -395,21 +383,20 @@
     </footer>
 
     <div class="footer">
-        <footer class="d-flex flex-wrap justify-content-between align-items-center pt-3 mt-4 border-top container">
-          <p class="col-md-4 mb-0 text-body-secondary ml-2">© 2024 The Ensynble, Inc</p>
+        <footer class="d-flex flex-wrap justify-content-between align-items-center mt-0 py-3 container">
+          <p class="col-md-4 mb-0 text-body-secondary ml-2">© 2024 The Ensynble, Inc.</p>
       
-          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
             <!-- <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
              -->
              <img src="./230729_logo for survey_text only_gray.png" width="40%">
           </a>
       
           <ul class="nav col-md-4 justify-content-end">
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            <li class="nav-item"><a href="./index.html" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item"><a href="https://docs.google.com/forms/d/e/1FAIpQLSeEm38DVS5yqWfCh5dMPH9C61tmldwgIrUjY2falImS2fHkMw/viewform?usp=sf_link" class="nav-link px-2 text-body-secondary">Waitlist</a></li>
+            <li class="nav-item"><a href="./2023SurveyResults.html" class="nav-link px-2 text-body-secondary">Survey</a></li>
+            <li class="nav-item"><a href="./connect.html" class="nav-link px-2 text-body-secondary">Connect</a></li>
           </ul>
         </footer>
       </div>
